@@ -22,5 +22,8 @@ int main() {
             cout << "cannot divide by zero";
         }
     }
+    else {
+        return 0;
+    }
     return 0;
 }
