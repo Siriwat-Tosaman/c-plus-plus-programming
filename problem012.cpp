@@ -22,6 +22,14 @@ int main() {
             cout << "cannot divide by zero";
         }
     }
+    else if (z == 5) {
+        if (y != 0) {
+            cout << x % y;
+        }
+        else {
+            cout << "cannot divide by zero";
+        }
+    }
     else {
         return 0;
     }
