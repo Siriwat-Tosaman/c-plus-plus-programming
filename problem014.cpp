@@ -8,7 +8,7 @@ int main() {
     cin >> score;
     if (score >= 0 and score <= 100) {
         if (score >= 80) {
-            cout << "Exellent";
+            cout << "Excellent";
         }
         else if (score >= 40) {
             cout << "Pass";
