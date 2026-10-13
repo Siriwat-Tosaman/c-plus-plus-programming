@@ -10,8 +10,9 @@ int main() {
     bool printed = false;
     if (x % 3 == 0) {
         cout << "3";
+        printed = true;
     }
-    else if (x % 5 == 0) {
+    if (x % 5 == 0) {
         if (printed) {
             cout << " ";
         }
